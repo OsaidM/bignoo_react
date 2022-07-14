@@ -1,0 +1,126 @@
+.join-section{
+    background-color: #a8cbfeff;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.join-content{
+    background-color: #0b5cd580;
+    border-radius: 26px;
+    width: 60%;
+    height: 60vh;
+    /* position: absolute; */
+    /* z-index: 1; */
+    /* top: 30%; */
+    /* left: 5%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.join-button-rounds{
+    background-color: #228c3a80;
+    border-radius: 26px;
+    width: 35%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.join-button{
+    position: absolute;
+    background-color: #15572480;
+    width: 95%;
+    height: 85%;
+    border-radius: 26px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+.join-button:hover{
+    background-color: #6aa1f730;
+}
+
+.join-text-rounds{
+    background-color: #0b5cd580;
+  border-radius: 26px;
+  width: 60%;
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.join-text-input{
+    position: absolute;
+    background-color: #6aa1f780;
+    width: 304.271px;
+    height: 72.000px;
+    border-radius: 26px;
+    z-index: 1;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+.join-text-input:focus{
+    border: none;
+}
+#join-room-id{
+    text-align: center;
+  padding: 0 20px;
+  position: absolute;
+  background-color: #6aa1f780;
+  width: 98%;
+  height: 90%;
+  border-radius: 26px;
+  z-index: 1;
+  font-size: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+  border: none;
+  box-sizing: border-box;
+}
+#join-room-id:focus{
+    border: none;
+    outline: none;
+    
+}
+#join-room-id:hover{
+    transition: .5s;
+    background-color: #6aa1d150;
+}
+#join-room-id::placeholder{
+    color:rgba(255, 255, 255, 0.405);
+}
+.join-glass-shadow{
+    position: absolute;
+    background-color: #000000;
+    height: 90%;
+    width: 98%;
+    top: 5.1px;
+    left: 6.2px;
+    border-radius: 26px;
+    opacity: .5;
+    mix-blend-mode: overlay;
+}
